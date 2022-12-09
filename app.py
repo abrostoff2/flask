@@ -6,7 +6,7 @@
     :license: MIT, see LICENSE for more details.
 """
 import click
-from flask import Flask
+from app import Flask
 
 app = Flask(__name__)
 
